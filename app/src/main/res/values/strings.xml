@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GearedUp</string>
+
+    <string name="title_activity_opening_splash_screen">OpeningSplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Welcome_to_Geared_Up">welcomeToGearedUp</string>
+</resources>
