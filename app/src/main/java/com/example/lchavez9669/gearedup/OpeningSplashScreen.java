@@ -105,7 +105,7 @@ public class OpeningSplashScreen extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        findViewById(R.id.button).setOnTouchListener(mDelayHideTouchListener);
     }
 
     @Override
@@ -159,5 +159,10 @@ public class OpeningSplashScreen extends AppCompatActivity {
     private void delayedHide(int delayMillis) {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
+    }
+
+    /** Called when the user taps the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
     }
 }
