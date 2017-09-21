@@ -1,6 +1,7 @@
 package com.example.lchavez9669.gearedup;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -163,6 +164,6 @@ public class OpeningSplashScreen extends AppCompatActivity {
 
     /** Called when the user taps the Send button */
     public void sendMessage(View view) {
-        // Do something in response to button
-    }
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);    }
 }
